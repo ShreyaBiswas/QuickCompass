@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000" >
+
+    <TextView
+        android:id="@+id/tvAzimuth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginTop="30dp"
+        android:text="Azimuth: 0.0" />
+
+    <ImageView
+        android:id="@+id/compassImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAzimuth"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/my_compass" />
+
+</RelativeLayout>
